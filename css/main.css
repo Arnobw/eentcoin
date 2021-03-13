@@ -1,37 +1,50 @@
 body {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
-    color:pink;
+    color: pink;
     font-size: 30px;
-    background-image:url(../img/bg.png);
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top:0;
+    position: fixed;
+    overflow:hidden;
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
     background-size:cover;
+}
+
+.knoppen {
     position: absolute;
     top: 50%;
     left: 50%;
     -ms-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
-    }
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
 
 .btn {
     text-align: center;
-    padding:20px;
-    border:solid 2px #000;
-    border-radius:16px;
+    padding: 20px;
+    border: solid 2px #000;
+    border-radius: 16px;
     cursor: pointer;
-    margin:0 auto;
-    background-color:yellow;
-    }
-
-.btn:hover {
-    background-color:slateblue;
+    margin: 0 auto;
+    background-color: yellow;
 }
 
-.total { 
-    background-color:royalblue;
-    padding:40px;
-    border-radius: 50%;
-    border:solid 3px red;
-    text-decoration: underline;
-    margin-bottom:20px;
-    }
+.btn:hover {
+    background-color: slateblue;
+}
 
+.total {
+    background-color: royalblue;
+    padding: 40px;
+    border-radius: 50%;
+    border: solid 3px red;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
