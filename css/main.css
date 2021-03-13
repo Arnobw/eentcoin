@@ -3,7 +3,7 @@ body {
     color:pink;
     font-size: 30px;
     background-image:url(../img/eentjes.jpg);
-    background-size:cover;
+    background-size:contain;
     position: absolute;
     top: 50%;
     left: 50%;
