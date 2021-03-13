@@ -1,3 +1,11 @@
+let counter = 0;
+
 $('.btn').click(function(){
-    alert( "Handler for .click() called." );
-})
+    counter++;
+    alert( "Je hebt " + counter + " eentcoin gemijnerd" );
+    $('.total').html("totaal aantal munten: " + counter);
+});
+
+
+
+
